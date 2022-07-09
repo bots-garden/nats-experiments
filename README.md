@@ -1,1 +1,1 @@
-# procyon-ng-archhitecture
+# procyon-ng-architecture
