@@ -21,12 +21,11 @@ tasks:
 
     init: |
       echo "🚀 initialize"
-      npm install
+      cd js-node npm install
+      cd ..
       clear
       export DOTNET_ROOT=$HOME/dotnet
       export PATH=$PATH:$HOME/dotnet
-      #dotnet workload install wasm-tools
-      #dotnet add package Wasi.Sdk --prerelease
       dotnet --version
 
 ports:
