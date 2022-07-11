@@ -1,6 +1,18 @@
 image: k33g/procyon-ng:0.0.0
 
 tasks:
+  - name: 00-term
+    command: |
+      clear
+
+  - name: 01-term
+    command: |
+      clear
+
+  - name: 03-term
+    command: |
+      clear
+
   - name: initialize
     before: |
 
