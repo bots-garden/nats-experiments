@@ -33,7 +33,8 @@ tasks:
 
     init: |
       echo "🚀 initialize"
-      cd js-node npm install
+      cd js-node
+      npm install
       cd ..
       clear
       export DOTNET_ROOT=$HOME/dotnet
