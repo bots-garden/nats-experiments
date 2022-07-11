@@ -49,6 +49,12 @@ ports:
     visibility: public
   - port: 4000
     visibility: public
+  - port: 4222
+    visibility: public
+  - port: 4223
+    visibility: public
+  - port: 8222
+    visibility: public
 
 vscode:
   extensions:
