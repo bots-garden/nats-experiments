@@ -4,7 +4,7 @@ import { connect, StringCodec } from "nats";
 
 const servers = [
   {},
-  { servers: ["localhost:4442", "localhost:4223"] },
+  { servers: ["localhost:4442"] },
 ]
 
 console.log("Connecting to the first server...")
