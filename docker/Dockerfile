@@ -10,7 +10,10 @@ RUN brew tap suborbital/subo && \
     brew install httpie && \
     brew install bat && \
     brew install exa && \
-    brew install hey
+    brew install hey && \
+    brew tap nats-io/nats-tools && \
+    brew install nats-io/nats-tools/nats && \
+    brew install pv
 
 # ------------------------------------
 # Install TinyGo
