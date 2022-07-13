@@ -15,7 +15,7 @@ const nc = await connect(servers[0]);
 const sc = StringCodec();
 
 nc.publish("ping", sc.encode("Hello 👋"));
-nc.publish("ping", sc.encode("Morge 😃"));
+nc.publish("ping", sc.encode("Morgen 😃"));
 
 // we want to insure that messages that are in flight
 // get processed, so we are going to drain the
